@@ -1,0 +1,20 @@
+title: LAW of design
+description: Graphic design, art direction and visual storytelling
+url: ""
+baseurl: "/law-of-design-portfolio"
+markdown: kramdown
+collections:
+  projects:
+    output: true
+    permalink: /work/:name/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+exclude:
+  - README.md
+  - preview.html
+  - LICENSE.txt
+  - .pages.yml
